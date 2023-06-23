@@ -1,0 +1,237 @@
+.container {
+    min-height: 91vh;
+    padding: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(79, 22, 91);
+    padding: 8px;
+    display: flex;
+    height: 100%;
+    justify-items: center;
+    justify-content: space-between;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divLogo {
+    align-items: center;
+    display: inline-block;
+}
+
+.logoHeader {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 110px;
+    transition: transform 0.9s ease;
+    justify-items: center;
+    transition: transform 0.9s ease;
+
+}
+
+.logoHeader:hover {
+    transform: translateX(10px);
+
+}
+
+.menuNav {
+
+    gap: 1.5rem;
+    display: flex;
+    list-style-type: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    padding: 2rem 10px;
+
+}
+
+.conjNav {
+    display: inline-block;
+}
+
+.test {
+    min-height: 100vh;
+    padding: auto;
+    display: grid;
+    background-color: aqua;
+}
+
+.link {
+    position: relative;
+}
+
+.link::after {
+    content: "";
+    width: 0%;
+    height: 1.1px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.product {
+    min-height: 80vh;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, white, rgb(167, 192, 76));
+}
+
+.containerProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+
+}
+
+.bgAbout {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.carrosel {
+    position: relative;
+    padding: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gab: 15px;
+}
+
+.galleryWrapper {
+    overflow-x: auto;
+}
+
+.galleryWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.ftCarrosel {
+    width: 600px;
+    height: 100%;
+}
+
+.arrowRight {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 25px;
+    text-align: center;
+    color: rgb(79, 22, 91);
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, transparent 0%, rgb(79, 22, 91) 400%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.arrowLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 25px;
+    text-align: center;
+    color: rgb(79, 22, 91);
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, rgb(79, 22, 91) 400%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+    opacity: 1;
+}
+
+.carouselContainer {
+    width: 490px;
+    overflow: hidden;
+}
+
+.carousel1 {
+    display: flex;
+    width: 100%;
+    animation: carouselAnimation 10s infinite;
+}
+
+.slide {
+
+    width: 100%;
+}
+
+@keyframes carouselAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    33.33% {
+        transform: translateX(-100%);
+    }
+
+    66.66% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    margin: 6rem;
+    gap: 1rem;
+}
+
+.cardapio h2, span{
+    color: rgb(79, 22, 91);
+    font-weight: bold;
+}
+
+.cardapio span{
+    font-weight: 1000;
+    margin-bottom: 2rem;
+}

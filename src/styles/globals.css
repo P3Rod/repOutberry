@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+h2 {
+    font-style: oblique;
+    font-size: 30px;
+}
+
+span {
+    font-size: 20px;
+}
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Largura da barra de rolagem */
+}
+
+/* Estilizando o fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background: #ece9e9;
+    /* Cor de fundo da barra de rolagem */
+}
+
+/* Estilizando o "polegar" da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background: rgb(79, 22, 91);
+    /* Cor do polegar da barra de rolagem */
+}
+
+/* Estilizando o "polegar" da barra de rolagem quando o mouse está sobre ele */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(99, 22, 91);
+    /* Cor do polegar da barra de rolagem ao passar o mouse */
+}
+
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
