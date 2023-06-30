@@ -4,6 +4,7 @@ import bgAbout from "../../assets/bgAbout.png"
 import styles from "./styles.module.css"
 import acaiMorango from "../../assets/acaiGranola.png"
 import acaiGranola from "../../assets/acaiMorango.png"
+import loja from "../../assets/aboutLoja.jpg"
 
 export default function Card() {
     return (
@@ -31,6 +32,27 @@ export default function Card() {
                         </li>
                     </ul>
                 </div>
+
+            </div>
+            <div className={styles.about}>
+
+
+
+                <div class={styles.carousel}>
+                    <div class={styles.carouselInner}>
+                        <div class={styles.slide}>
+                            <img src={loja} alt="" />
+                        </div>
+                        <div class={styles.slide}>
+                            <img src={loja} alt="" />
+                        </div>
+                        <div class={styles.slide}>
+                            <img src={loja} alt="" />
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
             <div className={styles.product}>
@@ -61,6 +83,9 @@ export default function Card() {
                     </div> */}
                 </div>
                 <img className={styles.bgAbout} src={bgAbout} alt="background" />
+            </div>
+            <div className={styles.test}>
+
             </div>
         </section>
 
