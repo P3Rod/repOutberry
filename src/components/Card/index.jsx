@@ -4,13 +4,12 @@ import bgAbout from "../../assets/bgAbout.png"
 import styles from "./styles.module.css"
 import acaiMorango from "../../assets/acaiGranola.png"
 import acaiGranola from "../../assets/acaiMorango.png"
-import loja from "../../assets/aboutLoja.jpg"
 
 export default function Card() {
     return (
-        <section>
+        <div>
             <div className={styles.container}>
-                <img className={styles.img} src={homeImg} alt="gif outberry" />
+                <img className={styles.img} src={homeImg} alt="gif outberry"/>
             </div>
             <div className={styles.header}>
 
@@ -34,27 +33,6 @@ export default function Card() {
                 </div>
 
             </div>
-            <div className={styles.about}>
-
-
-
-                <div class={styles.carousel}>
-                    <div class={styles.carouselInner}>
-                        <div class={styles.slide}>
-                            <img src={loja} alt="" />
-                        </div>
-                        <div class={styles.slide}>
-                            <img src={loja} alt="" />
-                        </div>
-                        <div class={styles.slide}>
-                            <img src={loja} alt="" />
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
             <div className={styles.product}>
                 <div className={styles.containerProduct}>
                     <div className={styles.cardapio}>
@@ -69,25 +47,10 @@ export default function Card() {
                             <div class={styles.slide}><img className={styles.ftCarrosel} src={acaiMorango} alt="açai de morango" /></div>
                         </div>
                     </div>
-
-
-                    {/* <div className={styles.carrosel}>
-                        <button className={styles.arrowLeft} aria-label="previous">🡄</button>
-                        <button className={styles.arrowRight} aria-label="next">🡆</button>
-                        <div className={styles.galleryWrapper}>
-                            <div className={styles.gallery}>
-                                <img className={styles.ftCarrosel} src={acaiGranola} alt="açai de granola" />
-                                <img className={styles.ftCarrosel} src={acaiMorango} alt="açai de morango" />
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
                 <img className={styles.bgAbout} src={bgAbout} alt="background" />
             </div>
-            <div className={styles.test}>
-
-            </div>
-        </section>
+        </div>
 
     )
 }

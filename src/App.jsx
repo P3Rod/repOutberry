@@ -1,7 +1,9 @@
 import Card from "./components/Card"
+import About from "./components/About"
 import Carousel from "./components/Carousel"
 import {motion} from 'framer-motion'
-
+import Rodape from "./components/Rodape"
+ 
 
 
 const App = () => {
@@ -10,8 +12,9 @@ const App = () => {
   return (
     <div>
       <Card/>
-      <h1>Meu Carrossel de Fotos</h1>
-      <Carousel />
+      <About/>
+      <Carousel/>
+      <Rodape/>
     </div>
   );
 };
