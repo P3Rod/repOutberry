@@ -1,5 +1,5 @@
 import homeImg from "../../assets/gif-header.gif"
-import iconHeader from "../../assets/icon-header.png"
+import iconHeader from "../../assets/logoHeader.png"
 import bgAbout from "../../assets/bgAbout.png"
 import styles from "./styles.module.css"
 import acaiMorango from "../../assets/acaiGranola.png"

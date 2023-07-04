@@ -1,5 +1,8 @@
 import style from './styles.module.css'
-import logoRodape from '../../assets/logorodape.png'
+import logoRodape from '../../assets/logoRodape.png'
+import facebook from '../../assets/facebook.svg'
+import instagram from '../../assets/instagram.svg'
+import whatsapp from '../../assets/whatsapp.svg'
 
 export default function Carousel() {
     return (
@@ -17,10 +20,9 @@ export default function Carousel() {
                 <div className={style.redes}>
                     <h2>redes sociais:</h2>
                     <div className={style.social}>
-                        <h1>redes sociais</h1>
-                        <h1>redes sociais</h1>
-                        <h1>redes sociais</h1>
-                        <h1>redes sociais</h1>
+                        <a href="#"><img className={style.iconsSocial} src={whatsapp} alt="direcionamento para whatsaap" /></a>
+                        <a href="#"><img className={style.iconsSocial} src={instagram} alt="direcionamento para instagram" /></a>
+                        <a href="#"><img className={style.iconsSocial} src={facebook} alt="direcionamento para facebook" /></a>
                     </div>
                 </div>
             </div>
