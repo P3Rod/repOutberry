@@ -1,0 +1,64 @@
+.Header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(79, 22, 91);
+    display: flex;
+    height: 70px;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logoHeader {
+    margin-left: 2rem;
+    width: 110px;
+    transition: transform 0.9s ease;
+    transition: transform 0.9s ease;
+
+}
+
+.logoHeader:hover {
+    transform: translateX(10px);
+
+}
+
+
+.conjNav {
+    margin-top: 10px;
+}
+
+.menuNav {
+    gap: 1.5rem;
+    display: flex;
+    list-style-type: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    padding: 0 10px;
+
+}
+
+.link {
+    position: relative;
+
+}
+
+.link::after {
+    content: "";
+    width: 0%;
+    height: 1.2px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.link:hover::after {
+    width: 100%;
+    left: 1%;
+}

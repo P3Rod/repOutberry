@@ -91,43 +91,34 @@
 .carousel {
     width: 100%;
     overflow: hidden;
-  }
-  
-  .carouselInner {
+}
+
+.carouselInner {
     display: flex;
     animation: carousel-animation 20s infinite;
-  }
-  
-  .slide {
+}
+
+.slide {
     flex: 1 20 65%;
-  }
-  
-  @keyframes carousel-animation {
+}
+
+@keyframes carousel-animation {
     0% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
+
     33.33% {
-      transform: translateX(10%);
+        transform: translateX(10%);
     }
+
     66.66% {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
+
     100% {
-      transform: translateX(-10%);
+        transform: translateX(-10%);
     }
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
+}
 
 .product {
     min-height: 80vh;
@@ -141,6 +132,7 @@
 
 .containerProduct {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 9;
@@ -264,18 +256,13 @@
     gap: 1rem;
 }
 
-.cardapio h2, span{
+.cardapio h2,
+span {
     color: rgb(79, 22, 91);
     font-weight: bold;
 }
 
-.cardapio span{
+.cardapio span {
     font-weight: 1000;
     margin-bottom: 2rem;
-}
-
-
-.test {
-    height: 90vh;
-    width: 100%;
 }

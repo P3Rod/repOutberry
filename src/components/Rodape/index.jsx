@@ -4,7 +4,7 @@ import facebook from '../../assets/facebook.svg'
 import instagram from '../../assets/instagram.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 
-export default function Carousel() {
+export default function Rodape() {
     return (
         <div className={style.rodape}>
             <div className={style.ajstRodape}>
@@ -18,7 +18,7 @@ export default function Carousel() {
                     </div>
                 </div>
                 <div className={style.redes}>
-                    <h2>redes sociais:</h2>
+                    <h2>acesse nossas redes sociais:</h2>
                     <div className={style.social}>
                         <a href="#"><img className={style.iconsSocial} src={whatsapp} alt="direcionamento para whatsaap" /></a>
                         <a href="#"><img className={style.iconsSocial} src={instagram} alt="direcionamento para instagram" /></a>
