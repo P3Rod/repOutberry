@@ -44,3 +44,10 @@
     margin: 0 auto;
     min-height: 70vh;
 }
+
+
+@media (max-width: 768px) {
+    .motion {
+        width: 380px;
+    }
+}

@@ -5,9 +5,7 @@ import Rodape from "./components/Rodape"
 import Menu from "./components/Menu"
 import Cardapio from "./components/Cardapio"
 
-
 const App = () => {
-
 
   return (
     <div>

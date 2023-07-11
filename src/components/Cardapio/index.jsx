@@ -18,7 +18,7 @@ export default function Cardapio() {
                         <button>acesse nosso cardápio</button>
                     </a>
                 </div>
-                <div style={{ display: 'block', width: 700 }}>
+                <div className={styles.carouselProduct}>
                     <Carousel fade>
                         <Carousel.Item interval={1500}>
                             <img
