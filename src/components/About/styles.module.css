@@ -10,11 +10,48 @@
 }
 .about {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 40px;
     max-width: 1200px;
+    padding: 5rem 3rem;
+    margin-top: 7rem;
+}
+
+.about h1 {
+    font-size:2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: rgb(79, 22, 91);
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+    animation: aparecer 1s ease-in-out;
+}
+
+.about p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.textAbout {
+    max-width: 800px;
+}
+
+.divTest {
+    width: 30px;
+    height: 40px;
+    background-color: blue;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 768px) {
@@ -23,8 +60,12 @@
         font-weight: bold;
     }
     .about p {
-        margin: 0 2rem;
+        margin: 2rem 2rem;
         text-align: center;
         font-weight: bold;
+    }
+    
+    .about {
+        flex-direction: column;
     }
 }

@@ -4,6 +4,7 @@ import Carousel from "./components/Carousel"
 import Rodape from "./components/Rodape"
 import Menu from "./components/Menu"
 import Cardapio from "./components/Cardapio"
+import Localizacao from "./components/Localizacao"
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <Cardapio/>
       <About/>
       <Carousel/>
+      <Localizacao/>
       <Rodape/>
     </div>
   );

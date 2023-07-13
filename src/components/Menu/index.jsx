@@ -21,6 +21,10 @@ export default function Menu() {
 
         <div className={styles.header}>
 
+            <div className={styles.conteinMenu}>
+
+            
+
             <a href="#">
                 <img className={styles.logoHeader} src={iconHeader} alt="" />
             </a>
@@ -53,6 +57,7 @@ export default function Menu() {
                     </nav>
                 </div>
             </nav>
+            </div>
 
         </div>
 

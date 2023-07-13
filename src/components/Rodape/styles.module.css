@@ -65,6 +65,10 @@
     font-size: 20px;
 }
 
+.textSocialmobile {
+    display: none;
+}
+
 
 @media (max-width: 768px) {
     .rodape {
@@ -84,4 +88,18 @@
     .ajstRodape {
         gap: 10px;
     }
+
+    .iconsSocial {
+        width: 40px;
+        margin: 10px;
+    }
+
+    .textSocial {
+        display: none;
+    }
+
+    .textSocialmobile {
+        display: block;
+    }
+
 }

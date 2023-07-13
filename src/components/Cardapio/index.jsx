@@ -19,29 +19,31 @@ export default function Cardapio() {
                     </a>
                 </div>
                 <div className={styles.carouselProduct}>
-                    <Carousel fade>
-                        <Carousel.Item interval={1500}>
-                            <img
-                                className="d-block w-100"
-                                src={acaiMorango}
-                                alt="imagem ilustrativa do produto"
-                            />
-                            <Carousel.Caption>
-                                <h3>Açai de Morango</h3>
-                                <p>300ml</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item interval={1500}>
-                            <img
-                                className="d-block w-100"
-                                src={acaiGranola}
-                                alt="imagem ilustrativa do produto"
-                            />
-                            <Carousel.Caption>
-                                <h3>Açai com Granola</h3>
-                                <p>300ml</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
+                    <Carousel data-bs-theme = "dark">
+                        <Carousel fade>
+                            <Carousel.Item interval={2000}>
+                                <img
+                                    className="d-block w-100"
+                                    src={acaiMorango}
+                                    alt="imagem ilustrativa do produto"
+                                />
+                                <Carousel.Caption>
+                                    <h3 className={styles.textCarousel}>Açai de Morango</h3>
+                                    <p className={styles.textCarousel}>300ml</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item interval={2000}>
+                                <img
+                                    className="d-block w-100"
+                                    src={acaiGranola}
+                                    alt="imagem ilustrativa do produto"
+                                />
+                                <Carousel.Caption>
+                                    <h3 className={styles.textCarousel}>Açai com Granola</h3>
+                                    <p className={styles.textCarousel}>300ml</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        </Carousel>
                     </Carousel>
                 </div>
             </div>

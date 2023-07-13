@@ -59,8 +59,15 @@ span {
 
 .carouselProduct {
     display: block;
-    width: 500px;
+    width: 600px;
+}
 
+.textCarousel {
+    color: rgb(79, 22, 91);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #ffffff,
+    -2px -2px 4px #ffffff;
+    
 }
 
 @media (max-width: 768px) {

@@ -18,7 +18,10 @@ export default function Rodape() {
                     </div>
                 </div>
                 <div className={style.redes}>
-                    <h2>acesse nossas redes sociais:</h2>
+                    <h2 className={style.textSocial}>
+                        acesse nossas redes sociais:</h2>
+                    <h2 className={style.textSocialmobile}>
+                        redes socias:</h2>
                     <div className={style.social}>
                         <a href="#"><img className={style.iconsSocial} src={whatsapp} alt="direcionamento para whatsaap" /></a>
                         <a href="#"><img className={style.iconsSocial} src={instagram} alt="direcionamento para instagram" /></a>
