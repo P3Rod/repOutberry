@@ -21,7 +21,7 @@ export default function Carousel() {
     }, [])
 
     return (
-        <section className={style.motion} >
+        <section id='' className={style.motion} >
             <div className={style.carousel} ref={carousel} >
                 <motion.div className={style.inner} 
                 drag="x"

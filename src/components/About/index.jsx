@@ -2,7 +2,7 @@ import style from './styles.module.css'
 
 export default function About() {
     return (
-        <div className={style.contend}>
+        <div id='' className={style.contend}>
             <div className={style.about}>
                 <h1>Conheça nossa história!</h1>
                 <div className={style.textAbout}><p>Bem-vindo à <span>Outberry</span>, a nova sensação em açaí que vai despertar todos os seus sentidos. <br />

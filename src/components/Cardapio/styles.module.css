@@ -59,7 +59,13 @@ span {
 
 .carouselProduct {
     display: block;
-    width: 600px;
+    width: 400px;
+}
+
+.ftacai {
+    width: 300px;
+    margin-left: 3.2rem;
+    border-radius: 20px;
 }
 
 .textCarousel {

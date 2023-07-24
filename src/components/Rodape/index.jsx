@@ -6,7 +6,7 @@ import whatsapp from '../../assets/whatsapp.svg'
 
 export default function Rodape() {
     return (
-        <div className={style.rodape}>
+        <div id='rodape' className={style.rodape}>
             <div className={style.ajstRodape}>
                 <div className={style.infRodape}>
                     <dir>

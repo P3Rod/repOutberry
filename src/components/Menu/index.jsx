@@ -35,10 +35,13 @@ export default function Menu() {
                         <a className={styles.link} href="#">inicio</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a className={styles.link} href="#">Produtos</a>
+                        <a className={styles.link} href="#produtos">Produtos</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a className={styles.link} href="#">Contatos</a>
+                        <a className={styles.link} href="#rodape">Contatos</a>
+                    </li>
+                    <li className={styles.navItem}>
+                        <a className={styles.link} href="#">Outros</a>
                     </li>
                 </ul>
                 <div className={styles.hamburgerMenu}>
@@ -50,9 +53,9 @@ export default function Menu() {
                     <nav className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
                         <ul className={styles.menuItems}>
                             <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Produtos</a></li>
-                            <li><a href="#">Contatos</a></li>
-                            <li><a href="#">Outross</a></li>
+                            <li><a href="#produtos">Produtos</a></li>
+                            <li><a href="#rodape">Contatos</a></li>
+                            <li><a href="#">Outross</a></li> 
                         </ul>
                     </nav>
                 </div>
